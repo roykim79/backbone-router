@@ -9,8 +9,8 @@ var AppRouter = Backbone.Router.extend({
     console.log('helping!')
   },
 
-  search: function(query, page) {
-    console.log(query, page);
+  search: function(query) {
+    console.log(query);
   }
 });
 
